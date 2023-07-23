@@ -1,3 +1,20 @@
-if game.PlaceId == 4783966408 then
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/FlowersDeveloping/Photoshop/main/POFRE', true))()
+local PlaceID = (game.PlaceId)
+
+if PlaceID == 4783966408 then
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/FlowersDeveloping/Photoshop/main/POFRE'))()
+elseif PlaceID == 5777099015 then
+    -- CHEESE ESCAPE CHAPTER 1
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/FlowersDeveloping/Photoshop/main/CheeseEscapeCP1'))()
+elseif PlaceID == 9053673709 then
+    -- CHEESE ESCAPE CHAPTER 2
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/FlowersDeveloping/Photoshop/main/CheeseEscapeCP2'))()
+elseif PlaceID == 1962086868 then
+    -- TOH
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/FlowersDeveloping/Photoshop/main/TowerOfHell'))()
+elseif PlaceID == 3582763398 then
+    -- PRO TOH
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/FlowersDeveloping/Photoshop/main/TowerOfHell'))()
+elseif PlaceID == 5253186791 then
+    -- TOH BAN SERVER
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/FlowersDeveloping/Photoshop/main/TowerOfHell'))()
 end
